@@ -1,0 +1,14 @@
+.container {
+    background: url("/images/AirBrush_20230718074658.jpg");
+    height: 500px;
+    width: 400px;
+    background-position: center center;
+    background-size: cover;
+    /* clip-path: polygon(0 0, 99% 1%, 100% 100%); */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.hero {
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(360deg,red,blue,yellow,pink);
+}
